@@ -9,9 +9,25 @@ html {
 
 /* parte da barra de navegação */
 
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover {
 
   color:#40E0D0;
+}
+
+.nav-link {
+
+  padding: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: .5rem;
+  padding-left: .5rem;
+  padding-bottom: .5rem;
+}
+
+.navbar-nav{
+margin-bottom: 3px;
+
 }
 
 .fadein {
@@ -84,43 +100,6 @@ html {
   margin-bottom: -0.25em;
 }
 
-[id=sidebar] a {
-  position: relative;
-  display: inline-block;
-}
-
-[id=sidebar] a:before, [id=sidebar] a:after {
-  content: "";
-  position: absolute;
-  top: -0.5em;
-  right: -0.75em;
-  bottom: -0.5em;
-  left: -0.75em;
-  display: block;
-}
-
-[id=sidebar] a:before {
-  transform-origin: right 0;
-  transform: scaleX(0);
-  transition: transform 0.3s, transform-origin 0.3s;
-  background: black;
-  z-index: -1;
-}
-
-[id=sidebar] a:hover {
-  color: white;
-  transition: color 0.15s 0.15s;
-}
-
-[id=sidebar] a:hover:before {
-  transform-origin: left 0;
-  transform: scaleX(1);
-  transition: transform-origin 0s, transform 0.3s;
-}
-
-[id=sidebar] a:hover:after {
-  z-index: 1;
-}
 
 .form .button, .form .label, .form .textarea, .form .text-input {
   padding: 0.75em 1.5em;
@@ -133,26 +112,6 @@ html {
   border: none;
 }
 
-[id=sidebar]>* {
-  position: relative;
-}
-
-[id=sidebar]> :before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: calc((.75rem + 1.25vw)*-1);
-  z-index: -2;
-  transition: background 0.2s ease;
-  background-color: rgba(255, 255, 255, 0);
-}
-
-[id=sidebar]> :hover:before, [id=sidebar]> :focus:before {
-  background-color: white;
-}
 
 .single [id=main] {
   position: relative;
