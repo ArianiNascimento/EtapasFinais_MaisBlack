@@ -31,8 +31,8 @@ header h1 {
 
 header p {
 
-  color: white;
-  font-family: 'Lora';
+  color: #000000;
+  font-family: 'Source Sans Pro';
   font-size: 25px;
   font-weight: 500;
 
@@ -67,7 +67,7 @@ header p {
 }
 
 .exp-section1 p {
-  font-family: 'Lora';
+  font-family: 'Source Sans Pro';
   font-size: 25px;
   text-align: left;
   color: #000000;
@@ -105,7 +105,7 @@ section {
 
   font-size: 20px;
   color: white;
-  font-family: 'Lora';
+  font-family: 'Source Sans Pro';
 
 }
 
@@ -124,7 +124,7 @@ section {
 
 .row p{
 
-font-family: 'Lora';
+font-family: 'Source Sans Pro';
 
 }
 /* parte com imagem e cta */
@@ -136,6 +136,7 @@ font-family: 'Lora';
 .col-lg-5 p {
 
   color: #000000;
+  font-size: 20px;
 }
 
 
@@ -217,12 +218,12 @@ footer {
 
 .foote_bottom_ul_amrc li a {
   color: white;
-  margin: 0 12px;
+  margin: 8px;
 }
 
 .foote_bottom_ul_amrc li a:hover {
   color: #40E0D0;
-  margin: 0 12px;
+  margin: 8px;
 }
 
 .social_footer_ul {

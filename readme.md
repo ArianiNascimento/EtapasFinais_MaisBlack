@@ -9,12 +9,14 @@
 
 <p>12/03: Debugs na navbar, página "Home" e "Quem somos" e ajuste de espaçamento </p>
 
+<p>14/03: Instalação do plugin de acessibilidade e reparos gerais </p>
+
 
 <h1> O que devemos melhorar</h1>
 
 - A parte da navbar tá com um espaçamento maior; (tô quase consertando)
-- Temos que add o plugin de acessibilidade;
 - Trocar a cor do cartão para preto;
 - Consertar o chat-box/ trocar de lado;
-- Consertar a visibilidade Mobile;
-- Mudar fontes;
+- Consertar a visibilidade Mobile (principalmente no header);
+- Mudar fontes; (falta terminar parei na home)
+- Dar uma olhada no texto do carrossel e no espaçamento abaixo dele;

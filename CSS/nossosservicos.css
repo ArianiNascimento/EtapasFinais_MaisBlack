@@ -285,12 +285,12 @@ footer {
 
 .foote_bottom_ul_amrc li a {
   color: white;
-  margin: 0 12px;
+  margin: 8px;
 }
 
 .foote_bottom_ul_amrc li a:hover {
   color:#40E0D0;
-  margin: 0 12px;
+  margin: 8px;
 }
 
 .social_footer_ul {
