@@ -32,8 +32,8 @@ header h1 {
 
 header p {
  
-  color: white;
-  font-family: 'Lora';
+  color: #000000;
+  font-family: 'Source Sans Pro';
   font-size: 30px;
   font-weight: 500;
 
@@ -48,20 +48,22 @@ header p {
 }
 
 .exp-section1 h4 {
-  color: #000000;
+  color: #40E0D0;
   font-weight: bold;
   font-size: 35px;
-  text-align: right;
+  text-align: left;
+  font-family: 'PT Sans';
 }
 
 .exp-section1 .subheading {
-  color: #40E0D0;
+  color: #000000;
   font-size: 25px;
 }
 
 .exp-section1 p {
   font-size: 30px;
-  text-align: right;
+  text-align: left;
+  font-family: 'Source Sans Pro';
 }
 
 .exp-section1 .row {
@@ -203,7 +205,23 @@ header p {
 .section-title p {
 
   color: white;
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+}
 
+/* parte cta */
+
+.btn{
+
+  background-color: #40E0D0;
+  color: white;
+  
+}
+
+.col-lg-5 p{
+
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
 }
 
 /* parte do footer */

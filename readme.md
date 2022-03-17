@@ -15,8 +15,7 @@
 <h1> O que devemos melhorar</h1>
 
 - A parte da navbar tá com um espaçamento maior; (tô quase consertando)
-- Trocar a cor do cartão para preto;
 - Consertar o chat-box/ trocar de lado;
 - Consertar a visibilidade Mobile (principalmente no header);
-- Mudar fontes; (falta terminar parei na home)
+- Mudar fontes; (falta terminar parei no "Quem somos" e "Contatos");
 - Dar uma olhada no texto do carrossel e no espaçamento abaixo dele;

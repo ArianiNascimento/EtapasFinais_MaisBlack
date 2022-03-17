@@ -46,29 +46,29 @@ header p {
 }
 
 .exp-section1 h4 {
-  color: #000000;
+  color: #40E0D0;
   font-weight: bold;
   font-family: 'PT Sans';
-  font-size: 30px;
+  font-size: 35px;
   text-align: left;
 }
 
 .exp-section1 h5 {
-  color: #000000;
+  color: #40E0D0;
   font-weight: bold;
   font-family: 'PT Sans';
-  font-size: 30px;
+  font-size: 35px;
   text-align: left;
 }
 
 .exp-section1 .subheading {
-  color: #40E0D0;
+  color: #000000;
   font-size: 25px;
 }
 
 .exp-section1 p {
   font-family: 'Source Sans Pro';
-  font-size: 25px;
+  font-size: 30px;
   text-align: left;
   color: #000000;
 }
@@ -82,7 +82,7 @@ header p {
 }
 
 .how-img img {
-  width: 80%;
+  width: 85%;
 }
 
 /* parte com icones e texto */
@@ -139,6 +139,20 @@ font-family: 'Source Sans Pro';
   font-size: 20px;
 }
 
+/* parte cta */
+
+.btn{
+
+  background-color: #40E0D0;
+  color: white;
+  
+}
+
+.col-lg-5 p{
+
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+}
 
 /* parte do footer */
 
