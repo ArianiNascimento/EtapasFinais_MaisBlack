@@ -634,6 +634,7 @@ body {
 
 .form .textarea, .form .text-input {
   font: inherit;
+  font-family: 'Source Sans Pro';
   line-height: normal;
   width: 100%;
   box-sizing: border-box;
@@ -708,6 +709,7 @@ body {
 
 .form .button {
   font: inherit;
+  font-family: 'PT Sans';
   line-height: normal;
   cursor: pointer;
   background-color: black;
@@ -853,6 +855,7 @@ footer {
 .foote_bottom_ul_amrc li a:hover {
   color:#40E0D0;
   margin: 5px;
+  text-decoration: none;
 }
 
 .social_footer_ul {

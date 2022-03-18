@@ -37,7 +37,8 @@ header {
 
 .img-fluid{
 
-margin-top: 20px;
+margin-top: 10px;
+margin-bottom: 25px;
 }
 
 .main-title {
@@ -52,16 +53,16 @@ margin-top: 15px;
 
 .about-title {
     font-size: 30px;
-    color: #000000;
-    font-family: 'Lora';
+    color: #40E0D0;
+    font-family: 'PT Sans';
 }
 
 .col-md-6 p {
    
     color: #000000;
     text-align: justify;
-    font-weight: bolder;
-    margin-bottom: 50px;
+    font-family: 'Source Sans Pro';
+    margin-bottom: 30px;
     
 }
 
@@ -86,7 +87,7 @@ margin-top: 15px;
 
 .col-12 h4{
 
-  font-family: 'Lora';
+  font-family: 'Source Sans Pro';
 }
 
 .service-box i, .service-box h5 {
@@ -100,11 +101,11 @@ margin-top: 15px;
 }
 
 .service-box h5 {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: white;
   text-align: center;
-  font-family: 'Lora';
+  font-family: 'Source Sans Pro';
 }
 
 .service-box:hover > i, .service-box:hover > h5 {
@@ -115,7 +116,7 @@ margin-top: 15px;
   background-color: #65DAF9;
   color: rgb(14, 13, 13);
   text-transform: uppercase;
-  width: 1000;
+  width: 500;
   height: 50;
   padding: 10px 20px;
   border-radius: 30px;
@@ -138,6 +139,7 @@ margin-top: 15px;
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
   height: 90vh;
+  margin-bottom: auto;
 }
 
 #mainSlider .carousel-caption {
@@ -146,14 +148,15 @@ margin-top: 15px;
 
 #mainSlider .carousel-caption h2 {
   font-size: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-top: auto;
 }
 
 #mainSlider .carousel-caption p {
-  font-size: 22px;
-  font-weight: 300;
-  margin-bottom: 100px;
+  font-size: 20px;
+  margin-bottom: 10px;
   color: #FFF;
+  font-family: 'Source Sans Pro';
 }
 
 .main-btn {
@@ -183,22 +186,23 @@ margin-top: 15px;
 
 .textos h3 {
 text-align: center;
-margin-top: 30px;
+margin-top: 15px;
 font-family: 'PT Sans';
 font-size: 45px;
 }
 
 .textos h6{
 
-font-family: 'Lora';
+font-family: 'Source Sans Pro';
 
 }
 
 .single-team .inner {
   text-align: center;
 	margin-bottom: 35px;
-	border: 1px solid #e5eaf0;
+	border: 1px solid #40E0D0;
 	padding: 5px 5px 0px;
+ 
 }
 
 .single-team .inner .team-img {
@@ -230,7 +234,9 @@ font-family: 'Lora';
 .single-team .inner .team-content h4 {
 	font-size: 18px;
 	font-weight: 400;
-  font-family: 'PT Sans';
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+  
 }
 
 .single-team .inner .team-content h5 {
@@ -238,6 +244,7 @@ font-family: 'Lora';
 	font-size: 16px;
 	letter-spacing: 0.5px;
 	color: #7d91aa;
+  font-family: 'Source Sans Pro';
 }
 
 .single-team .inner .team-content a {
@@ -245,10 +252,12 @@ font-family: 'Lora';
 	padding: 2px;
 	margin: 0 3px;
 	font-size: 16px;
+  color: #40E0D0;
+  text-decoration: none;
 }
 
 .team-social {
-	background: #f3f6fa;
+	background: #000000;
 	width: 50%;
 	padding-top: 4px;
 	margin: auto;
@@ -310,6 +319,7 @@ font-family: 'Lora';
   padding: 10px;
   margin: 0;
   font-size: 30px;
+  font-family: 'Source Sans Pro';
   color: rgb(0, 0, 0);
   border-radius: 0 50px 50px 0;
   background: #40e0d2;
@@ -329,34 +339,35 @@ font-family: 'Lora';
 .main-timeline4 .timeline-content {
   padding: 30px 20px;
   margin: 0 45px 0 35px;
-  background: #f2f2f2
+  background: #f2f2f2;
 }
 
 .main-timeline4 .title {
   font-size: 19px;
   font-weight: 700;
   color: #000000;
-  margin: 0 0 10px
+  margin: 0 0 10px;
 }
 
 .main-timeline4 .description {
   font-size: 16px;
   color: #000000;
-  margin: 0
+  margin: 0;
+  font-family: 'Source Sans Pro';
 }
 
 .main-timeline4 .timeline:nth-child(2n) {
-  padding: 0 0 0 30px
+  padding: 0 0 0 30px;
 }
 
 .main-timeline4 .timeline:nth-child(2n) .timeline-icon {
   right: auto;
-  left: -14.5px
+  left: -14.5px;
 }
 
 .main-timeline4 .timeline:nth-child(2n) .year {
   border-radius: 50px 0 0 50px;
-  background: #40e0d2
+  background: #40e0d2;
 }
 
 .main-timeline4 .timeline:nth-child(2n) .year:before {
@@ -545,6 +556,7 @@ footer {
 .foote_bottom_ul_amrc li a:hover {
   color:#40E0D0;
   margin: 8px;
+  text-decoration: none;
 }
 
 .social_footer_ul {

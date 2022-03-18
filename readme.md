@@ -11,11 +11,16 @@
 
 <p>14/03: Instalação do plugin de acessibilidade e reparos gerais </p>
 
+<p>16/03: Troca da cor do botão e troca de fontes </p>
+
+<p> 17/03: Ajustes nas páginas "Quem somos" e "Contatos"</p>
+
 
 <h1> O que devemos melhorar</h1>
 
 - A parte da navbar tá com um espaçamento maior; (tô quase consertando)
 - Consertar o chat-box/ trocar de lado;
 - Consertar a visibilidade Mobile (principalmente no header);
-- Mudar fontes; (falta terminar parei no "Quem somos" e "Contatos");
-- Dar uma olhada no texto do carrossel e no espaçamento abaixo dele;
+- Dar uma olhada no carrossel (no espaçamento abaixo dele);
+- Pôr o botão voltar ao topo;
+- Ver o porquê do texto estar sobrescrito em "Contatos";
