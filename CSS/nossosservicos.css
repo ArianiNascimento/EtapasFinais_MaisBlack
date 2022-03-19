@@ -39,6 +39,35 @@ header p {
 
 }
 
+.row{
+
+  margin-right: 0;
+}
+
+/* scroolbar */
+
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #000000 #ffffff;
+  }
+
+  /* Chrome, Edge, e Safari */
+  *::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+  
 /* parte do textinho */
 
 .exp-section1 {
@@ -207,6 +236,49 @@ header p {
   color: white;
   font-family: 'Source Sans Pro';
   font-size: 18px;
+}
+
+/* parte explicação passo a passo */
+
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #40E0D0;
+}
+
+.text-center h1 {
+
+  font-size: 30px;
+  color: #000000;
+  font-family: 'PT Sans';
+  padding-bottom: 10px;
+}
+
+.text-center h2 {
+
+  font-size: 20px;
+  color: #000000;
+  font-family: 'Source Sans Pro';
+
+}
+
+.row svg {
+  color: #000000;
+}
+
+.row h6 {
+
+  color: #000000;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+  font-family: 'PT Sans';
+}
+
+.row p{
+
+font-family: 'Source Sans Pro';
+
 }
 
 /* parte cta */

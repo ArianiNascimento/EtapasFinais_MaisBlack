@@ -29,6 +29,30 @@ header {
   margin-top: 0;
 }
 
+/* scroolbar */
+
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #000000 #ffffff;
+  }
+
+  /* Chrome, Edge, e Safari */
+  *::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+
 
 /*Sobre a +black*/
 

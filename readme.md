@@ -17,8 +17,9 @@
 
 <p>18/03: Adição do botão de voltar ao topo, ajustes no chatbox e na página de "Contatos"</p>
 
+<p>19/03: Customização da scrollbar e ajustes na parte mobile </p>
+
 <h1> O que devemos melhorar</h1>
 
-- A parte da navbar tá com um espaçamento maior; (tô quase consertando);
 - Consertar a visibilidade Mobile (principalmente no header);
-- Ver o porquê do icine do chatbox sumir em alguns pedaços das páginas;
+- Ver o porquê do icone do chatbox sumir em alguns pedaços das páginas;
