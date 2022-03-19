@@ -15,12 +15,10 @@
 
 <p> 17/03: Ajustes nas páginas "Quem somos" e "Contatos"</p>
 
+<p>18/03: Adição do botão de voltar ao topo, ajustes no chatbox e na página de "Contatos"</p>
 
 <h1> O que devemos melhorar</h1>
 
-- A parte da navbar tá com um espaçamento maior; (tô quase consertando)
-- Consertar o chat-box/ trocar de lado;
+- A parte da navbar tá com um espaçamento maior; (tô quase consertando);
 - Consertar a visibilidade Mobile (principalmente no header);
-- Dar uma olhada no carrossel (no espaçamento abaixo dele);
-- Pôr o botão voltar ao topo;
-- Ver o porquê do texto estar sobrescrito em "Contatos";
+- Ver o porquê do icine do chatbox sumir em alguns pedaços das páginas;

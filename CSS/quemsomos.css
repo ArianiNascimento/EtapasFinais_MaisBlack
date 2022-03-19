@@ -1,22 +1,23 @@
 /* configuracoes gerais para navegador */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* parte da barra de navegação */
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
 
-  color:#40E0D0;
+  color: #40E0D0;
 }
 
 .container-fluid {
-    padding: 0;
+  padding: 0;
 }
-#mainSlider .carousel-inner , #mainSlider .carousel-item{
-    height: 90vh;
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+  height: 90vh;
 
 }
 
@@ -32,43 +33,43 @@ header {
 /*Sobre a +black*/
 
 #abouut-area {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
-.img-fluid{
+.img-fluid {
 
-margin-top: 10px;
-margin-bottom: 25px;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 
 .main-title {
-color: #000000;
-margin: 0 0 65px 0;
-font-size: 50px;
-text-align: center;
-font-family: 'PT Sans';
-margin-top: 15px;
+  color: #000000;
+  margin: 0 0 65px 0;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'PT Sans';
+  margin-top: 15px;
 }
 
 
 .about-title {
-    font-size: 30px;
-    color: #40E0D0;
-    font-family: 'PT Sans';
+  font-size: 30px;
+  color: #40E0D0;
+  font-family: 'PT Sans';
 }
 
 .col-md-6 p {
-   
-    color: #000000;
-    text-align: justify;
-    font-family: 'Source Sans Pro';
-    margin-bottom: 30px;
-    
+
+  color: #000000;
+  text-align: justify;
+  font-family: 'Source Sans Pro';
+  margin-bottom: 30px;
+
 }
 
 /* Você sabia */
 
-.services-area{
+.services-area {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #000000;
@@ -77,15 +78,15 @@ margin-top: 15px;
 .service-box {
   text-align: center;
   margin-bottom: 50px;
-  
+
 }
 
-.col-12 h3{ 
+.col-12 h3 {
   margin-bottom: 30px;
   font-family: 'PT Sans';
 }
 
-.col-12 h4{
+.col-12 h4 {
 
   font-family: 'Source Sans Pro';
 }
@@ -108,11 +109,11 @@ margin-top: 15px;
   font-family: 'Source Sans Pro';
 }
 
-.service-box:hover > i, .service-box:hover > h5 {
+.service-box:hover>i, .service-box:hover>h5 {
   color: #40e0d2;
 }
 
-.btn-primary   {
+.btn-primary {
   background-color: #65DAF9;
   color: rgb(14, 13, 13);
   text-transform: uppercase;
@@ -185,97 +186,98 @@ margin-top: 15px;
 /* Nosso time  */
 
 .textos h3 {
-text-align: center;
-margin-top: 15px;
-font-family: 'PT Sans';
-font-size: 45px;
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'PT Sans';
+  font-size: 45px;
 }
 
-.textos h6{
+.textos h6 {
 
-font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro';
 
 }
 
 .single-team .inner {
   text-align: center;
-	margin-bottom: 35px;
-	border: 1px solid #40E0D0;
-	padding: 5px 5px 0px;
- 
+  margin-bottom: 35px;
+  border: 1px solid #000000;
+  padding: 5px 5px 0px;
+
 }
 
 .single-team .inner .team-img {
-	position: relative;
+  position: relative;
 }
 
 .single-team .inner .team-img img {
-	width: 100%;
+  width: 100%;
 }
 
 .single-team .inner .team-img::after {
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	opacity: 0;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
 }
 
 .single-team .inner .team-img:hover::after {
-	opacity: 0.4;
+  opacity: 0.4;
 }
 
 .single-team .inner .team-content {
-	padding: 22px 0px 0px;
+  padding: 22px 0px 0px;
 }
 
 .single-team .inner .team-content h4 {
-	font-size: 18px;
-	font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
   font-family: 'Source Sans Pro';
   font-weight: bold;
-  
+
 }
 
 .single-team .inner .team-content h5 {
-	font-weight: 300;
-	font-size: 16px;
-	letter-spacing: 0.5px;
-	color: #7d91aa;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #7d91aa;
   font-family: 'Source Sans Pro';
 }
 
 .single-team .inner .team-content a {
-	display: inline-block;
-	padding: 2px;
-	margin: 0 3px;
-	font-size: 16px;
+  display: inline-block;
+  padding: 2px;
+  margin: 0 3px;
+  font-size: 16px;
   color: #40E0D0;
   text-decoration: none;
 }
 
 .team-social {
-	background: #000000;
-	width: 50%;
-	padding-top: 4px;
-	margin: auto;
-	border-radius: 15px 15px 0px 0px;
-	margin-top: 17px;
+  background: #000000;
+  width: 50%;
+  padding-top: 4px;
+  margin: auto;
+  border-radius: 15px 15px 0px 0px;
+  margin-top: 17px;
 }
 
 /* Linha do Tempo*/
 
-.time-line{
+.time-line {
 
   margin-bottom: 30px;
 
 }
+
 .main-timeline4 {
   overflow: hidden;
   position: relative;
-   
+
 }
 
 .main-timeline4:after,
@@ -433,41 +435,49 @@ font-family: 'Source Sans Pro';
 
 @media only screen and (max-width:767px) {
   .main-timeline4 {
-      overflow: visible
+    overflow: visible
   }
+
   .main-timeline4:before {
-      top: 0;
-      left: 0
+    top: 0;
+    left: 0
   }
+
   .main-timeline4 .timeline:nth-child(2),
   .main-timeline4 .timeline:nth-child(even),
   .main-timeline4 .timeline:nth-child(odd) {
-      margin: 0
+    margin: 0
   }
+
   .main-timeline4 .timeline {
-      width: 100%;
-      float: none;
-      padding: 0 0 0 30px;
-      margin-bottom: 20px!important
+    width: 100%;
+    float: none;
+    padding: 0 0 0 30px;
+    margin-bottom: 20px !important
   }
+
   .main-timeline4 .timeline:last-child {
-      margin: 0!important
+    margin: 0 !important
   }
+
   .main-timeline4 .timeline-icon {
-      right: auto;
-      left: -14.5px
+    right: auto;
+    left: -14.5px
   }
+
   .main-timeline4 .year {
-      border-radius: 50px 0 0 50px
+    border-radius: 50px 0 0 50px
   }
+
   .main-timeline4 .year:before {
-      border-left: none;
-      border-right: 35px solid transparent;
-      left: auto;
-      right: 0
+    border-left: none;
+    border-right: 35px solid transparent;
+    left: auto;
+    right: 0
   }
+
   .main-timeline4 .timeline-content {
-      margin: 0 35px 0 45px
+    margin: 0 35px 0 45px
   }
 }
 
@@ -480,12 +490,11 @@ footer {
   border-top: 5px solid #292929;
 }
 
-.logobaixo{
+.logobaixo {
   display: block;
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto
-  
 }
 
 .footer_ul_amrc {
@@ -554,7 +563,7 @@ footer {
 }
 
 .foote_bottom_ul_amrc li a:hover {
-  color:#40E0D0;
+  color: #40E0D0;
   margin: 8px;
   text-decoration: none;
 }
@@ -584,48 +593,96 @@ footer {
   text-align: center;
 }
 
+/* botao voltar ao topo */
+
+#toTopBtn {
+  position: fixed;
+  bottom: 26px;
+  right: 15px;
+  z-index: 98;
+  padding: 21px;
+  background-color: #40E0D0;
+  opacity: 0.6;
+}
+
+.js .cd-top--fade-out {
+  opacity: .5
+}
+
+.js .cd-top--is-visible {
+  visibility: visible;
+  opacity: 1
+}
+
+.js .cd-top {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .3s, visibility .3s, background-color .3s
+}
+
+.cd-top {
+  position: fixed;
+  bottom: 20px;
+  bottom: var(--cd-back-to-top-margin);
+  right: 20px;
+  right: var(--cd-back-to-top-margin);
+  display: inline-block;
+  height: 40px;
+  height: var(--cd-back-to-top-size);
+  width: 40px;
+  width: var(--cd-back-to-top-size);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+  background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+  background-color: #40E0D0;
+}
+
+.height {
+  height: 3000px
+}
+
 /* chatbox */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 .chat-box {
-    width: 350px;
-    height: 400px;
-    background-color: #fff;
-    overflow: hidden;
-    border-radius: 10px;
-    position: fixed;
-    margin: 50px;
-    z-index: 1;
+  display: none;
+  width: 350px;
+  height: 400px;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 10px;
+  position: fixed;
+  margin: 50px;
+  z-index: 1;
 }
 
 .client {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    height: 80px;
-    background-color: #40e0d2;
-    padding: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 80px;
+  background-color: #40e0d2;
+  padding: 15px;
 }
 
 .client img {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 .client-info {
-    color: #fff;
-    padding: 15px;
+  color: #fff;
+  padding: 15px;
 }
 
 .chats {
-    width: 100%;
-    padding: 0 15px;
-    color: #fff;
-    position: relative;
-    font-size: 0.7em;
-    font-weight: bold;
+  width: 100%;
+  padding: 0 15px;
+  color: #fff;
+  position: relative;
+  font-size: 0.7em;
+  font-weight: bold;
 }
 
 .site-chat {
@@ -691,8 +748,10 @@ footer {
 }
 
 .chat-btn {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
+  right: 11px;
+  top: 344px;
   border-radius: 50%;
   background-color: #fff;
   cursor: pointer;
