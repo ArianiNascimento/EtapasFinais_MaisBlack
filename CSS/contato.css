@@ -891,11 +891,19 @@ footer {
   width: 350px;
   height: 400px;
   background-color: #fff;
-  overflow: hidden;
+  overflow-y: scroll;
   border-radius: 10px;
   position: fixed;
   margin: 50px;
   z-index: 1;
+}
+
+.chat-box button {
+  padding: 5px;
+  border-radius: 10px;
+  margin: 3px 0;
+  cursor: pointer;
+  border: none;
 }
 
 .client {
@@ -931,9 +939,10 @@ footer {
   width: 60%;
   word-wrap: break-word;
   background-color: #284b48;
-  padding: 7px 10px;
+  padding: 7px;
   border-radius: 10px 10px 10px 0;
-  margin: 10px 0;
+  margin: 10px 5px;
+  color: #fff;
 }
 
 .client-chat {
@@ -952,13 +961,12 @@ footer {
   height: 55px;
   background-color: #fff;
   padding: 15px;
-  overflow: hidden;
-  position: absolute;
+  position: relative;
   bottom: 0;
+  margin-top: 50px;
 }
 
 .chat-input input {
-  width: calc(100% - 40px);
   height: 100%;
   background-color: #fff;
   border-radius: 50px;
@@ -1015,4 +1023,21 @@ footer {
 
 .chat-btn:hover img {
   transform: rotate(30deg);
+}
+
+#escolhas-cartao, #escolhas-cadastro, #escolhas-app, #escolha-outra, #erro, #duvidas2, #resp-cartao, 
+#resp-cadastro, #resp-app {
+    display: none;
+}
+
+#enviar {
+    cursor: pointer;
+    width: 30%;
+    padding: 0px 0px 0px 3px;
+    font-size: smaller;
+}
+
+#campo {
+    width: 70%;
+    font-size: smaller;
 }
