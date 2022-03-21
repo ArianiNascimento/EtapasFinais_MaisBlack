@@ -19,7 +19,8 @@
 
 <p>19/03: Customização da scrollbar e ajustes na parte mobile </p>
 
+<p>20/03: Consertos do icone do chatbox</p>
+
 <h1> O que devemos melhorar</h1>
 
 - Consertar a visibilidade Mobile (principalmente no header);
-- Ver o porquê do icone do chatbox sumir em alguns pedaços das páginas;
