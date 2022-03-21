@@ -30,6 +30,30 @@ html {
 
 }
 
+/* scroolbar */
+
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #000000 #ffffff;
+  }
+
+  /* Chrome, Edge, e Safari */
+  *::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+
 .fadein {
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
@@ -998,12 +1022,14 @@ footer {
 }
 
 .chat-btn {
+  font-size: 2em;
+  text-align: center;
   width: 50px;
   height: 50px;
   right: 11px;
   top: 344px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #40E0D0;
   cursor: pointer;
   overflow: hidden;
   position: fixed;

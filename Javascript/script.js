@@ -4,6 +4,11 @@ $(document).ready(() => {
     })
 })
 
+let changeIcon = function (icon){
+
+    icon.classList.toggle('fa-times-circle')
+}
+
 function exibe() {
     let campo = document.getElementById('campo').value 
 
